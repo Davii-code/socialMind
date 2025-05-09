@@ -1,7 +1,7 @@
 package com.socialMind.base.exception;
 
-import com.doc.easyschedulefeedback.base.enums.ApiErrorEnum;
-import com.doc.easyschedulefeedback.base.enums.MessageCode;
+import com.socialMind.base.enums.ApiErrorEnum;
+import com.socialMind.base.enums.MessageCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
@@ -26,7 +26,7 @@ public abstract class ApiResponseExceptionHandler extends ResponseEntityExceptio
     }
 
     @ExceptionHandler(java.lang.SecurityException.class)
-    public ResponseEntity<MessageResponse> handleSecurityException(java.lang.SecurityException ex){
+    public ResponseEntity<MessageResponse> handleSecurityException(SecurityException ex){
         mountMessages(ex.getMessageResponse());
 
         return ResponseEntity.status(ex.getMessageResponse().getStatusCode()).body(ex.getMessageResponse());

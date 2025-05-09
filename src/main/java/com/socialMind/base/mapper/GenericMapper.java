@@ -1,6 +1,6 @@
 package com.socialMind.base.mapper;
 
-import com.doc.easyschedulefeedback.base.domain.GenericModel;
+import com.socialMind.base.domain.GenericModel;
 import org.mapstruct.IterableMapping;
 import org.mapstruct.MappingTarget;
 import org.mapstruct.Named;

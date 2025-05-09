@@ -1,6 +1,6 @@
 package com.socialMind.base.reflection;
 
-import com.doc.easyschedulefeedback.base.annotation.MandatoryField;
+import com.socialMind.base.annotation.MandatoryField;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;

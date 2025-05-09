@@ -1,9 +1,9 @@
 package com.socialMind.base.security.impl;
 
 
-import com.doc.easyschedulefeedback.base.config.Constants;
-import com.doc.easyschedulefeedback.base.dto.CredentialDTO;
-import com.doc.easyschedulefeedback.base.service.IUserProviderService;
+import com.socialMind.base.config.Constants;
+import com.socialMind.base.dto.CredentialDTO;
+import com.socialMind.base.service.IUserProviderService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.NoArgsConstructor;

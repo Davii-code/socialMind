@@ -1,7 +1,7 @@
 package com.socialMind.base.service.impl;
 
-import com.doc.easyschedulefeedback.base.dto.AuthDTO;
-import com.doc.easyschedulefeedback.base.dto.CredentialDTO;
+import com.socialMind.base.dto.AuthDTO;
+import com.socialMind.base.dto.CredentialDTO;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 public class UserPasswordService {

@@ -1,8 +1,8 @@
 package com.socialMind.base.service.impl;
 
 import com.auth0.jwt.interfaces.Claim;
-import com.doc.easyschedulefeedback.base.config.Constants;
-import com.doc.easyschedulefeedback.base.security.impl.TokenBuilder;
+import com.socialMind.base.config.Constants;
+import com.socialMind.base.security.impl.TokenBuilder;
 
 import java.util.Map;
 

@@ -1,6 +1,6 @@
 package com.socialMind.base.exception;
 
-import com.doc.easyschedulefeedback.base.enums.ApiErrorEnum;
+import com.socialMind.base.enums.ApiErrorEnum;
 import lombok.Getter;
 
 @Getter

@@ -1,7 +1,7 @@
 package com.socialMind.base.controller;
 
-import com.doc.easyschedulefeedback.base.dto.CredentialDTO;
-import com.doc.easyschedulefeedback.base.security.impl.CredentialProvider;
+import com.socialMind.base.dto.CredentialDTO;
+import com.socialMind.base.security.impl.CredentialProvider;
 
 public abstract class AbstractController {
 

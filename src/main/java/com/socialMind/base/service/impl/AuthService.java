@@ -1,12 +1,12 @@
 package com.socialMind.base.service.impl;
 
-import com.doc.easyschedulefeedback.base.config.Constants;
-import com.doc.easyschedulefeedback.base.dto.AuthDTO;
-import com.doc.easyschedulefeedback.base.dto.CredentialDTO;
-import com.doc.easyschedulefeedback.base.enums.ApiErrorEnum;
-import com.doc.easyschedulefeedback.base.security.impl.KeyToken;
-import com.doc.easyschedulefeedback.base.security.impl.TokenBuilder;
-import com.doc.easyschedulefeedback.base.service.IUserProviderService;
+import com.socialMind.base.config.Constants;
+import com.socialMind.base.dto.AuthDTO;
+import com.socialMind.base.dto.CredentialDTO;
+import com.socialMind.base.enums.ApiErrorEnum;
+import com.socialMind.base.security.impl.KeyToken;
+import com.socialMind.base.security.impl.TokenBuilder;
+import com.socialMind.base.service.IUserProviderService;
 import org.apache.logging.log4j.util.Strings;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

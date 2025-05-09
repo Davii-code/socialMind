@@ -1,7 +1,7 @@
 package com.socialMind.base.security.impl;
 
-import com.doc.easyschedulefeedback.base.security.Credential;
-import com.doc.easyschedulefeedback.base.security.ICredentialProvider;
+import com.socialMind.base.security.Credential;
+import com.socialMind.base.security.ICredentialProvider;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 

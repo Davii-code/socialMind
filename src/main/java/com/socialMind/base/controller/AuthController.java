@@ -1,9 +1,9 @@
 package com.socialMind.base.controller;
 
-import com.doc.easyschedulefeedback.base.config.Constants;
-import com.doc.easyschedulefeedback.base.dto.AuthDTO;
-import com.doc.easyschedulefeedback.base.dto.CredentialDTO;
-import com.doc.easyschedulefeedback.base.service.impl.AuthService;
+import com.socialMind.base.config.Constants;
+import com.socialMind.base.dto.AuthDTO;
+import com.socialMind.base.dto.CredentialDTO;
+import com.socialMind.base.service.impl.AuthService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

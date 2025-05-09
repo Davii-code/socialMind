@@ -1,6 +1,6 @@
 package com.socialMind.base.service;
 
-import com.doc.easyschedulefeedback.base.dto.CredentialDTO;
+import com.socialMind.base.dto.CredentialDTO;
 
 public interface IUserProviderService {
     CredentialDTO getCredentialByLogin(String username);

@@ -1,6 +1,6 @@
 package com.socialMind.base.exception;
 
-import com.doc.easyschedulefeedback.base.enums.MessageCode;
+import com.socialMind.base.enums.MessageCode;
 import lombok.Getter;
 import org.springframework.http.HttpStatus;
 

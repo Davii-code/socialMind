@@ -1,9 +1,9 @@
 package com.socialMind.base.config;
 
-import com.doc.easyschedulefeedback.base.exception.FilterChainExceptionHandler;
-import com.doc.easyschedulefeedback.base.security.impl.AuthenticationProvider;
-import com.doc.easyschedulefeedback.base.security.impl.JwtAuthenticationFilter;
-import com.doc.easyschedulefeedback.base.security.impl.LogoutService;
+import com.socialMind.base.exception.FilterChainExceptionHandler;
+import com.socialMind.base.security.impl.AuthenticationProvider;
+import com.socialMind.base.security.impl.JwtAuthenticationFilter;
+import com.socialMind.base.security.impl.LogoutService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

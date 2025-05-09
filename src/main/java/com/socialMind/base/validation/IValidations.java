@@ -1,7 +1,7 @@
 package com.socialMind.base.validation;
 
-import com.doc.easyschedulefeedback.base.enums.ValidationActionsEnum;
-import com.doc.easyschedulefeedback.base.exception.Message;
+import com.socialMind.base.enums.ValidationActionsEnum;
+import com.socialMind.base.exception.Message;
 
 import java.util.List;
 

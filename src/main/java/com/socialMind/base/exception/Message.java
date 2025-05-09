@@ -1,7 +1,7 @@
 package com.socialMind.base.exception;
 
-import com.doc.easyschedulefeedback.base.enums.MessageCode;
-import com.doc.easyschedulefeedback.base.enums.MessageType;
+import com.socialMind.base.enums.MessageCode;
+import com.socialMind.base.enums.MessageType;
 import lombok.Data;
 
 @Data

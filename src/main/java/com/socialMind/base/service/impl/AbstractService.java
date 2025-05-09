@@ -1,13 +1,13 @@
 package com.socialMind.base.service.impl;
 
-import com.doc.easyschedulefeedback.base.domain.GenericModel;
-import com.doc.easyschedulefeedback.base.enums.ApiErrorEnum;
-import com.doc.easyschedulefeedback.base.enums.ValidationActionsEnum;
-import com.doc.easyschedulefeedback.base.exception.*;
-import com.doc.easyschedulefeedback.base.mapper.GenericMapper;
-import com.doc.easyschedulefeedback.base.reflection.ApiReflectionUtils;
-import com.doc.easyschedulefeedback.base.service.IAbstractService;
-import com.doc.easyschedulefeedback.base.validation.IValidations;
+import com.socialMind.base.domain.GenericModel;
+import com.socialMind.base.enums.ApiErrorEnum;
+import com.socialMind.base.enums.ValidationActionsEnum;
+import com.socialMind.base.exception.*;
+import com.socialMind.base.mapper.GenericMapper;
+import com.socialMind.base.reflection.ApiReflectionUtils;
+import com.socialMind.base.service.IAbstractService;
+import com.socialMind.base.validation.IValidations;
 import jakarta.persistence.Entity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

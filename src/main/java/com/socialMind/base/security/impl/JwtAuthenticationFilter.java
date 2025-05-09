@@ -1,6 +1,6 @@
 package com.socialMind.base.security.impl;
 
-import com.doc.easyschedulefeedback.base.security.Credential;
+import com.socialMind.base.security.Credential;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

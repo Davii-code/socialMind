@@ -1,10 +1,10 @@
 package com.socialMind.base.controller.impl;
 
 
-import com.doc.easyschedulefeedback.base.controller.IAbstractCrudController;
-import com.doc.easyschedulefeedback.base.domain.GenericModel;
-import com.doc.easyschedulefeedback.base.mapper.GenericMapper;
-import com.doc.easyschedulefeedback.base.service.IAbstractService;
+import com.socialMind.base.controller.IAbstractCrudController;
+import com.socialMind.base.domain.GenericModel;
+import com.socialMind.base.mapper.GenericMapper;
+import com.socialMind.base.service.IAbstractService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

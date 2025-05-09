@@ -1,6 +1,6 @@
 package com.socialMind.base.dto;
 
-import com.doc.easyschedulefeedback.base.security.Credential;
+import com.socialMind.base.security.Credential;
 import lombok.Builder;
 import lombok.Data;
 
