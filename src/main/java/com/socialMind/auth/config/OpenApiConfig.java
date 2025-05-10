@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 public class OpenApiConfig {
 
     private static final String SECURITY_SCHEME_NAME = "bearerAuth";
-
+//http://localhost:8080/oauth2/authorize/google login atraves do google para teste
     @Bean
     public OpenAPI openAPI() {
         return new OpenAPI()

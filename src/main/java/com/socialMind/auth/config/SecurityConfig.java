@@ -46,8 +46,14 @@ public class SecurityConfig {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeHttpRequests(authorize -> authorize
+                        // Permitir acesso ao Swagger UI e recursos relacionados
+                        .requestMatchers("/swagger-ui.html", "/swagger-ui/**", "/v3/api-docs/**",
+                                "/swagger-resources/**", "/webjars/**", "/api-docs/**").permitAll()
+                        // Permitir acesso aos endpoints de autenticação
                         .requestMatchers("/api/auth/**", "/oauth2/**").permitAll()
+                        // Permitir acesso aos endpoints públicos
                         .requestMatchers("/api/public/**").permitAll()
+                        // Todos os outros endpoints requerem autenticação
                         .anyRequest().authenticated()
                 )
                 .oauth2Login()
